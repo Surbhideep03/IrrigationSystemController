@@ -1,0 +1,31 @@
+<html>
+
+	<head>
+		<title>Irrigation System</title>
+	</head>
+
+	<body>
+		
+		<form action="/zone/start" method="POST">
+			<select name="id">
+				<option value="0">Zone 1</option>
+				<option value="1">Zone 2</option>
+				<option value="2">Zone 3</option>
+				<option value="3">Zone 4</option>
+			</select>
+			<input type="submit" value="Turn ON!">
+		</form>
+
+		<form action="/zone/stop" method="POST">
+			<select name="id">
+				<option value="0">Zone 1</option>
+				<option value="1">Zone 2</option>
+				<option value="2">Zone 3</option>
+				<option value="3">Zone 4</option>
+			</select>
+			<input type="submit" value="Turn OFF!">
+		</form>
+
+	</body>
+
+</html>

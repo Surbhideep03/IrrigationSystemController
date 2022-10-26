@@ -1,0 +1,49 @@
+[
+	{
+		"type" : "controller",
+		"version" : "%VERSION%",
+		"controllerID" : "000-001",
+		"uptime" : %UPTIME%,
+		"state" : %CONTROLLER_STATE%,
+		"status" : %CONTROLLER_STATUS%,
+		"activezone" : %ACTIVE_ZONE%,
+		"isUpdating" : %ISUPDATING%,
+		"updateProgress" : %UPDATEPROGRESS%
+	},
+	{
+		"type" : "zone",
+		"id" : 0,
+		"name" : "%ZONE_0_NAME%",
+		"state" : %ZONE_0_STATE%,
+		"status" : %ZONE_0_STATUS%,
+		"flowrate_1min" : %ZONE_0_FLOW_LAST_MIN%,
+		"timeleft" : %ZONE_0_TIMELEFT%
+	},
+	{
+		"type" : "zone",
+		"id" : 1,
+		"name" : "%ZONE_1_NAME%",
+		"state" : %ZONE_1_STATE%,
+		"status" : %ZONE_1_STATUS%,
+		"flowrate_1min" : %ZONE_1_FLOW_LAST_MIN%,
+		"timeleft" : %ZONE_1_TIMELEFT%
+	},
+	{
+		"type" : "zone",
+		"id" : 2,
+		"name" : "%ZONE_2_NAME%",
+		"state" : %ZONE_2_STATE%,
+		"status" : %ZONE_2_STATUS%,
+		"flowrate_1min" : %ZONE_2_FLOW_LAST_MIN%,
+		"timeleft" : %ZONE_2_TIMELEFT%
+	},
+	{
+		"type" : "zone",
+		"id" : 3,
+		"name" : "%ZONE_3_NAME%",
+		"state" : %ZONE_3_STATE%,
+		"status" : %ZONE_3_STATUS%,
+		"flowrate_1min" : %ZONE_3_FLOW_LAST_MIN%,
+		"timeleft" : %ZONE_3_TIMELEFT%
+	}
+]

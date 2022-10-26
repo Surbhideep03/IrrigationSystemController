@@ -1,0 +1,7 @@
+IrrigationSystem	KEYWORD1
+IrrigationController KEYWORD1
+IrrigationZone KEYWORD1
+
+getZone KEYWORD2
+
+PIN_BOOST LITERAL1

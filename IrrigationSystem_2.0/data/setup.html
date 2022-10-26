@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+	<head>
+		<title>CaptivePortal</title>
+		<style type="text/css">
+			body {
+				text-align: center;
+			}	
+		</style>
+	</head>
+	<body>
+		<form action="/config" method="POST">
+			
+			<label for="WiFiSSID">
+				SSID: 
+			</label><br/>
+			<!--<input id="WiFISSID" type="text" name="WiFiSSID"/>-->
+			<select name="WiFiSSID">
+				%AVAIL_SSID%
+			</select>
+			<br/><br/>
+
+			<label for="WiFiPASS">
+				Password: 
+			</label><br/>
+			<input id="WiFiPASS" type="password" name="WiFiPASS"/><br/><br/><br/><br/>
+
+			<label for="ZoneName1">
+				Zone #1 Name: 
+			</label><br/>
+			<input id="ZoneName1" type="text" name="ZoneName1"/><br/><br/>
+
+			<label for="ZoneName2">
+				Zone #2 Name: 
+			</label><br/>
+			<input id="ZoneName2" type="text" name="ZoneName2"/><br/><br/>
+
+			<label for="ZoneName3">
+				Zone #3 Name: 
+			</label><br/>
+			<input id="ZoneName3" type="text" name="ZoneName3"/><br/><br/>
+
+			<label for="ZoneName4">
+				Zone #4 Name: 
+			</label><br/>
+			<input id="ZoneName4" type="text" name="ZoneName4"/><br/><br/>
+
+			<input id="restart" type="hidden" name="restart"/>
+
+			<input type="submit" value="Save"/>
+		</form>
+
+	</body>
+</html>
