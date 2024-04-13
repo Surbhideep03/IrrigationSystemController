@@ -1,9 +1,9 @@
 // Project has been designed for ESP8266
 
-#define VERSION     "2.4.0"
+#define VERSION     "4.0"
 
-#define AUTHOR      "David Cuerrier"
-#define CONTACT     "david.cuerrier@gmail.com"
+#define AUTHOR      "SURBHIDEEP"
+#define CONTACT     "surbhideep.27@gmail.com"
 #define COPYRIGHT   "This code may be use as is, all modification need to be reviewed and pushed back into community repository"
 
 #ifdef ESP8266
